@@ -42,7 +42,7 @@ Este algoritmo se implementa usando una cola FIFO (Primero en entrar, primero en
 
 Este sería el árbol que nos da el resultado:
 
-![arbol_busqueda_amplitud](resources\arbol_busqueda_amplitud.png)
+![arbol_busqueda_amplitud](/resources/arbol_busqueda_amplitud.png)
 
 El código fuente de este algoritmo se encuentra en el archivo [amplitud.py](amplitud.py).
 
@@ -197,7 +197,7 @@ Este algoritmo se implementa usando una cola LIFO (Último en entrar, primero en
 
 Este sería el árbol que nos da el resultado:
 
-![arbol_busqueda_profundidad](resources\arbol_busqueda_profundidad.png)
+![arbol_busqueda_profundidad](/resources/arbol_busqueda_profundidad.png)
 
 El código fuente de este algoritmo se encuentra en el archivo [profundidad.py](profundidad.py).
 
