@@ -6,7 +6,7 @@ Hay un problema bastante conocido que puede resolverse mediante técnicas de IA,
 
 Se tienen dos jarras, una con capacidad de 5 litros y otra con 3. Ninguna de ellas tiene marcas de medición. Tenemos un grifo que permite llenar las jarras de agua.
 
-![jarra](D:\Desarrollo\python_algoritmos_busqueda\resources\jarra.png)
+![jarra](resources\jarra.png)
 
 La solución consiste en conseguir que en la jarra de 5 litros hayan exactamente 4 litros de agua, la de 3 litros no tiene ninguna restricción.
 
@@ -42,7 +42,7 @@ Este algoritmo se implementa usando una cola FIFO (Primero en entrar, primero en
 
 Este sería el árbol que nos da el resultado:
 
-![arbol_busqueda_amplitud](D:\Desarrollo\python_algoritmos_busqueda\resources\arbol_busqueda_amplitud.png)
+![arbol_busqueda_amplitud](resources\arbol_busqueda_amplitud.png)
 
 El código fuente de este algoritmo se encuentra en el archivo [amplitud.py](amplitud.py).
 
@@ -197,7 +197,7 @@ Este algoritmo se implementa usando una cola LIFO (Último en entrar, primero en
 
 Este sería el árbol que nos da el resultado:
 
-![arbol_busqueda_profundidad](D:\Desarrollo\python_algoritmos_busqueda\resources\arbol_busqueda_profundidad.png)
+![arbol_busqueda_profundidad](resources\arbol_busqueda_profundidad.png)
 
 El código fuente de este algoritmo se encuentra en el archivo [profundidad.py](profundidad.py).
 
