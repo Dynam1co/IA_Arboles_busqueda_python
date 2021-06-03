@@ -13,7 +13,8 @@ def buscar_solucion_DFS(estado_inicial, solucion):
         nodo = nodos_frontera.pop()  # Extraer nodo a visitar
         nodos_visitados.append(nodo)  # Añadir a nodos visitados
 
-        if nodo.get_datos() == solucion:
+        # Solo debemos comprobar que en la jarra grande hayan 4 litros
+        if nodo.get_datos()[0] == solucion[0]:
             solucionado = True
 
             # Devuelvo el último nodo (meta) que tiene un padre, que a su vez tiene otro padre etc y ese sería el camino a la solución

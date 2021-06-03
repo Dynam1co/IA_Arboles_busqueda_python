@@ -8,7 +8,7 @@ Se tienen dos jarras, una con capacidad de 5 litros y otra con 3. Ninguna de ell
 
 ![jarra](D:\Desarrollo\python_algoritmos_busqueda\resources\jarra.png)
 
-La solución consiste en conseguir que en la jarra de 5 litros hayan exactamente 4 litros de agua, y en la de 3 litros hayan 3.
+La solución consiste en conseguir que en la jarra de 5 litros hayan exactamente 4 litros de agua, la de 3 litros no tiene ninguna restricción.
 
 ## Acciones posibles
 
@@ -38,7 +38,7 @@ La búsqueda en amplitud recorre el árbol por niveles siguiendo estos pasos:
 - Seguidamente se visitan todos sus hijos del nodo seleccionado aplicando las operaciones definidas. Para cada hijo comprobamos que no se haya visitado en la lista de nodos visitados, si no lo está, lo añadimos a la lista de nodos frontera.
 - Volvemos a seleccionar un nodo de la lista de nodos frontera y repetimos el proceso hasta que encontremos el nodo meta.
 
-Este algoritmo suele implementarse usando una cola FIFO (Primero en entrar, primero en salir), por eso, en el código fuente vemos que extraemos el primer elemento de la lista de nodos frontera usando **nodos_frontera.pop(0)**.
+Este algoritmo se implementa usando una cola FIFO (Primero en entrar, primero en salir), por eso, en el código fuente vemos que extraemos el primer elemento de la lista de nodos frontera usando **nodos_frontera.pop(0)**.
 
 Este sería el árbol que nos da el resultado:
 
@@ -193,7 +193,7 @@ Como vemos, coincide con el camino encontrado en la imagen del árbol.
 
 La búsqueda en profundidad es algo diferente a la búsqueda en amplitud. En lugar de ir visitando todos los nodos del mismo nivel, va descendiendo por una rama hasta la profundidad máxima, cuando llega al nodo más profundo, continúa con la siguiente rama.
 
-Este algoritmo suele implementarse usando una cola LIFO (Último en entrar, primero en salir), por eso, en el código fuente vemos que extraemos el último elemento de la lista de nodos frontera usando **nodos_frontera.pop()**.
+Este algoritmo se implementa usando una cola LIFO (Último en entrar, primero en salir), por eso, en el código fuente vemos que extraemos el último elemento de la lista de nodos frontera usando **nodos_frontera.pop()**.
 
 Este sería el árbol que nos da el resultado:
 
