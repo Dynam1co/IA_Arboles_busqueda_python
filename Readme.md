@@ -337,7 +337,7 @@ if __name__ == '__main__':
 El print del resultado nos mostraría lo siguiente:
 
 ```
-[[0, 0], [0, 3], [3, 0], [3, 3], [5, 1], [0, 1], [1, 0], [1, 3], [4, 0], [4, 3]]
+[[0, 0], [0, 3], [3, 0], [3, 3], [5, 1], [0, 1], [1, 0], [1, 3], [4, 0]]
 ```
 
 Como vemos, coincide con el camino encontrado en la imagen del árbol, además, el resultado es visiblemente peor que el obtenido con la búsqueda en amplitud, lo que indica que la solución encontrada no es óptima.
